@@ -1,0 +1,21 @@
+#container{
+    display: inline-flex;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.pokemon{
+    flex-basis: calc(10% - 20px);
+    text-align: center;
+}
+.pokemon img{
+    /* display: block; */
+    max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+    /* width: 160px; */
+}
+
+.pokemon span {
+    display: block; /* Put each span on a new line */
+  }
